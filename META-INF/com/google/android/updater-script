@@ -1,0 +1,31 @@
+mount("ext4", "EMMC", "system", "/system");
+package_extract_dir("system", "/system");
+unmount("/system");
+
+ui_print("");
+ui_print("#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*");
+ui_print("#                                      *");
+ui_print("*         DAREDEVIL KERNEL             #");
+ui_print("#                                      *");
+ui_print("#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*");
+ui_print("****************************************");
+ui_print("*            KERNEL INFO:              *");
+ui_print("*                                      *");
+ui_print("*          DEVICE: BQ E4.5             *");
+ui_print("*         CODENAME: KRILLIN            *");
+ui_print("*     LINUX KERNEL VERSION: 3.10.xx    *");
+ui_print("*  DAREDEVIL PROJECT DEV: PABLITO2020  *");
+ui_print("*        DAREDEVIL VERSION: N          *");
+ui_print("*                                      *");
+ui_print("****************************************");
+
+package_extract_file("boot.img", "/dev/bootimg");
+
+ui_print("#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*");
+ui_print("#                                      *");
+ui_print("*         KERNEL INSTALLED!            #");
+ui_print("*     YOU CAN REBOOT YOUR PHONE!       #");
+ui_print("#                                      *");
+ui_print("#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*");
+
+
