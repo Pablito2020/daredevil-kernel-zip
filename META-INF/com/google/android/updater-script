@@ -16,7 +16,7 @@ ui_print("*                DEVICE: BQ E4.5                 *");
 ui_print("*               CODENAME: KRILLIN                *");
 ui_print("*          LINUX KERNEL VERSION: 3.10.107        *");
 ui_print("*        DAREDEVIL PROJECT DEV: PABLITO2020      *");
-ui_print("*              DAREDEVIL VERSION: N              *");
+ui_print("*              DAREDEVIL VERSION: M              *");
 ui_print("*                                                *");
 ui_print("**************************************************");
 
