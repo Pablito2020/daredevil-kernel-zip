@@ -1,4 +1,4 @@
-# Branch: Nougat
+# Branch: Marshmallow
 
 This is the Meta-inf folder used for the .zip Daredevil Kernel
 
